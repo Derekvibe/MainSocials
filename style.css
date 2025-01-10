@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+}
+
+.main-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  margin: 10%;
+  padding: 50px 10px;
+  border: 1px solid hsl(0, 0%, 12%);
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+
+.content img {
+  border-radius: 50%;
+  /* width: 50%; */
+}
+
+.name {
+  padding-top: 10px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.yellow {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+
+.Second {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.socials { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.socials a {
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 20%);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
